@@ -59,7 +59,7 @@ def main(argv):
 
     print('\nTest set accuracy: {accuracy:0.3f}\n'.format(**eval_result))
 
-    # Generate predictions from the model
+    # Generate predictions from the model, have a test.
     expected = ['Setosa', 'Versicolor', 'Virginica']
     predict_x = {
         'SepalLength': [5.1, 5.9, 6.9],
